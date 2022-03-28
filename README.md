@@ -6,14 +6,14 @@
                                                    
 ## Порядок выполнения операций:
 
--FROM, включая JOINs
--WHERE
--GROUP BY
--HAVING
--Функции WINDOW
--SELECT
--DISTINCT
--UNION
--ORDER BY
--LIMIT и OFFSET
+- FROM, включая JOINs
+- WHERE
+- GROUP BY
+- HAVING
+- Функции WINDOW
+- SELECT
+- DISTINCT
+- UNION
+- ORDER BY
+- LIMIT и OFFSET
                                                                           
