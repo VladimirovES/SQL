@@ -6,7 +6,7 @@
                                                    
 ## Порядок выполнения операций:
 
-- FROM, включая JOINs
+1. FROM, включая JOINs
 - WHERE
 - GROUP BY
 - HAVING
