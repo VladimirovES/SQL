@@ -1,6 +1,7 @@
 <div>
   <p align="center"
-   <a href ="https://stepik.org/course/63054/syllabus">
+   
+  <a href ="https://www.chaijs.com/">
   <img src="https://github.com/devicons/devicon/blob/master/icons/postgresql/postgresql-original.svg" width="40px"/>
    </a>
    </p>
