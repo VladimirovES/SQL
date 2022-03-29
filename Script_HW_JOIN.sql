@@ -180,5 +180,24 @@ join salary s on s.id = es.salary_id
 join roles_employee re on re.employee_id = es.employee_id 
 join roles r on r.id = re.role_id 
 where role_name like '%QA% %engineer'
+
+-- 24. Вывести максимальную ЗП QA инженеров
+
+select MAX(monthly_salary) from employee_salary es 
+join salary s on s.id = es.salary_id 
+join roles_employee re on re.employee_id = es.employee_id
+join roles r on r.id = re.role_id 
+where role_name like '%QA% %engineer'
+
+--25. Вывести количество QA инженеров
+
+select Count(role_name) from roles_employee re 
+join roles r on r.id = re.role_id 
+where role_name like '%QA% %eng%'
+
+--26. Вывести количество Middle специалистов
+
+select count(role_name)
+
  
 
