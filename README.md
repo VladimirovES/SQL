@@ -2,7 +2,11 @@
   <a href="https://stepik.org/course/63054/syllabus">
   <img src="https://github.com/devicons/devicon/blob/master/icons/postgresql/postgresql-original.svg" width="40px"/>
    </a>
- </div>                                                                                                                             
+ </div>                                                                                                                             <p align="center">
+
+  <img width="460" height="300" src="http://www.fillmurray.com/460/300">
+
+</p>
                                                    
 ## Порядок выполнения операций:
 
