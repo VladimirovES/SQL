@@ -19,17 +19,17 @@ join salary S on S.id=es.salary_id
 where monthly_salary <2000;
 
 --3. Вывести все зарплатные позиции, но работник по ним не назначен. (ЗП есть, но не понятно кто её получает.)
--- ТАКИХ ПОЗИЦИЙ НЕТ!
+
 select monthly_salary  from employee_salary es 
 right join salary S on S.id = es.salary_id
-where employee_id is NUll
+where employee_id >70;
  
 
 --4. Вывести все зарплатные позиции  меньше 2000 но работник по ним не назначен. (ЗП есть, но не понятно кто её получает.)
 
 select monthly_salary  from employee_salary es 
 right join salary S on S.id = es.salary_id
-where employee_id is null and monthly_salary < 2000;
+where employee_id >70 and monthly_salary < 2000;
 
 --5. Найти всех работников кому не начислена ЗП.
 
