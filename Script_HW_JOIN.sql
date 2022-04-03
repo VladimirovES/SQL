@@ -141,13 +141,13 @@ join roles r on r.id = re.role_id
 where role_name like '%Middle JavaScript%'
 
 -- 19. Вывести имена и зарплаты Senior Java разработчиков
-------------------- В базе таких нет--------------------
+
 select employee_name, role_name, monthly_salary from employee_salary es 
 join employees e on e.id = es.employee_id 
 join salary s on s.id = es.salary_id 
 join roles_employee re on re.employee_id = es.employee_id 
 join roles r on r.id = re.role_id 
-where role_name like '%Senior JavaScript%'
+where role_name like '%Senior Java%'
 
 --20. Вывести зарплаты Junior QA инженеров
 
